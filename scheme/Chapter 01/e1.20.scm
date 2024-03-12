@@ -6,6 +6,7 @@
 
 ;; 正则序
 ;; 18 次
+;; todo: 学习如何计算出来的。再仔细研究一遍 fib 增长阶的计算方式。
 (gcd 206 40)
 (if (= 40 0) 206 (gcd 40 (remainder 206 40)))
 (if (= (remainder 206 40) 0) 206 (gcd (remainder 206 40) (remainder (remainder 206 40))))
